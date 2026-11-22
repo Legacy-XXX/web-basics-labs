@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Клац — комп'ютерна периферія</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-klats-50 text-slate-800 min-h-screen flex flex-col">
+
+  <!-- Верхнє меню -->
+  <header class="bg-white shadow-sm sticky top-0 z-10">
+    <div class="max-w-6xl 3xl:max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-3 p-4">
+      <a href="#" class="flex items-center gap-3">
+        <img src="img/logo.svg" alt="Логотип Клац" class="w-10 h-10">
+        <span class="font-display text-2xl font-bold text-klats-700">Клац</span>
+      </a>
+      <nav class="flex flex-wrap gap-1 text-sm font-medium">
+        <a href="#" class="nav-link bg-klats-100 text-klats-700">Головна</a>
+        <a href="#catalog" class="nav-link">Каталог</a>
+        <a href="#why" class="nav-link">Чому ми</a>
+        <a href="#delivery" class="nav-link">Доставка</a>
+        <a href="#contacts" class="nav-link">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <!-- Банер -->
+    <section class="max-w-6xl 3xl:max-w-7xl mx-auto px-4 py-10 md:py-18">
+      <div class="bg-gradient-to-r from-klats-700 to-klats-500 rounded-card shadow-card p-6 md:p-10 flex flex-col md:flex-row items-center gap-6">
+        <div class="flex-1 text-white">
+          <p class="uppercase tracking-widest text-zap-400 text-sm font-semibold">Новий сезон — нова периферія</p>
+          <h1 class="text-4xl lg:text-hero font-display font-bold text-blue-600 bg-white/95 inline-block rounded-xl px-4 py-2 mt-3">
+            Клац — периферія, що слухається
+          </h1>
+          <p class="text-base leading-normal m-4 ml-0 text-klats-100 max-w-xl">
+            Миші, клавіатури та навушники для роботи, навчання й ігор. Обирай пристрій
+            під свій стиль — ми доставимо його вже завтра.
+          </p>
+          <div class="flex flex-col xs:flex-row gap-3">
+            <a href="#catalog" class="bg-green-500 text-white p-2 px-5 rounded-lg hover:bg-green-700 text-center font-semibold transition">
+              До каталогу
+            </a>
+            <a href="#why" class="bg-white/10 border border-white/40 text-white p-2 px-5 rounded-lg hover:bg-white/20 text-center transition">
+              Дізнатися більше
+            </a>
+          </div>
+        </div>
+        <img src="img/headphones.svg" alt="Навушники" class="w-full max-w-xs md:max-w-sm rounded-card">
+      </div>
+    </section>
+
+    <!-- Триколонковий макет: три колонки контенту -->
+    <section id="catalog" class="max-w-6xl 3xl:max-w-7xl mx-auto px-4 pb-10">
+      <h2 class="font-display text-3xl font-bold text-klats-900 mb-2">Популярні категорії</h2>
+      <p class="text-base leading-normal text-slate-600 mb-6">На великих екранах — три колонки, на мобільних — одна.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-white/60 rounded-card">
+        <!-- Колонка 1 -->
+        <article class="card">
+          <img src="img/mouse.svg" alt="Миша" class="w-full rounded-xl">
+          <div class="flex items-center justify-between">
+            <h3 class="font-display text-xl font-bold text-klats-900">Миші</h3>
+            <span class="text-xs font-semibold bg-zap-500 text-klats-900 rounded-full px-3 py-1">Хіт</span>
+          </div>
+          <p class="text-base leading-normal text-slate-600">
+            Ігрові та офісні миші з точним сенсором і зручною формою для довгої роботи.
+          </p>
+          <ul class="text-sm text-slate-600 space-y-1">
+            <li>✔ Сенсор до 26 000 DPI</li>
+            <li>✔ Бездротові й дротові моделі</li>
+          </ul>
+          <div class="mt-auto flex items-center justify-between">
+            <span class="text-lg font-bold text-klats-700">від 449 ₴</span>
+            <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-700 transition">Переглянути</button>
+          </div>
+        </article>
+
+        <!-- Колонка 2 -->
+        <article class="card">
+          <img src="img/keyboard.svg" alt="Клавіатура" class="w-full rounded-xl">
+          <div class="flex items-center justify-between">
+            <h3 class="font-display text-xl font-bold text-klats-900">Клавіатури</h3>
+            <span class="text-xs font-semibold bg-klats-100 text-klats-700 rounded-full px-3 py-1">Новинки</span>
+          </div>
+          <p class="text-base leading-normal text-slate-600">
+            Механічні та мембранні клавіатури: тихі для офісу й чіткі для ігор.
+          </p>
+          <ul class="text-sm text-slate-600 space-y-1">
+            <li>✔ Перемикачі Red, Brown, Blue</li>
+            <li>✔ Підсвітка RGB</li>
+          </ul>
+          <div class="mt-auto flex items-center justify-between">
+            <span class="text-lg font-bold text-klats-700">від 899 ₴</span>
+            <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-700 transition">Переглянути</button>
+          </div>
+        </article>
+
+        <!-- Колонка 3 -->
+        <article class="card md:col-span-2 lg:col-span-1">
+          <img src="img/monitor.svg" alt="Монітор" class="w-full rounded-xl">
+          <div class="flex items-center justify-between">
+            <h3 class="font-display text-xl font-bold text-klats-900">Монітори</h3>
+            <span class="text-xs font-semibold bg-green-100 text-green-700 rounded-full px-3 py-1">−15%</span>
+          </div>
+          <p class="text-base leading-normal text-slate-600">
+            Монітори з високою частотою оновлення та точною передачею кольорів.
+          </p>
+          <ul class="text-sm text-slate-600 space-y-1">
+            <li>✔ До 240 Гц</li>
+            <li>✔ IPS та OLED матриці</li>
+          </ul>
+          <div class="mt-auto flex items-center justify-between">
+            <span class="text-lg font-bold text-klats-700">від 5 999 ₴</span>
+            <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-700 transition">Переглянути</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Переваги: ще один ряд із трьох колонок -->
+    <section id="why" class="bg-white py-10 md:py-18">
+      <div class="max-w-6xl 3xl:max-w-7xl mx-auto px-4">
+        <h2 class="font-display text-3xl font-bold text-klats-900 mb-6 text-center md:text-left">Чому обирають Клац</h2>
+        <div class="flex flex-col lg:flex-row gap-4">
+          <div class="flex-1 rounded-card bg-klats-50 p-6">
+            <div class="w-12 h-12 rounded-xl bg-klats-600 text-white grid place-items-center text-2xl mb-3">🚚</div>
+            <h3 class="font-semibold text-lg text-klats-900">Доставка за 1 день</h3>
+            <p class="text-base leading-normal text-slate-600 mt-2">Відправляємо замовлення в день оформлення по всій Україні.</p>
+          </div>
+          <div id="delivery" class="flex-1 rounded-card bg-klats-50 p-6">
+            <div class="w-12 h-12 rounded-xl bg-zap-500 text-klats-900 grid place-items-center text-2xl mb-3">🛡️</div>
+            <h3 class="font-semibold text-lg text-klats-900">Гарантія 2 роки</h3>
+            <p class="text-base leading-normal text-slate-600 mt-2">Офіційна гарантія на всі пристрої та обмін протягом 14 днів.</p>
+          </div>
+          <div class="flex-1 rounded-card bg-klats-50 p-6">
+            <div class="w-12 h-12 rounded-xl bg-green-500 text-white grid place-items-center text-2xl mb-3">🎧</div>
+            <h3 class="font-semibold text-lg text-klats-900">Тест перед покупкою</h3>
+            <p class="text-base leading-normal text-slate-600 mt-2">Приходь у шоурум і спробуй будь-яку мишу чи клавіатуру.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Футер з контактною інформацією -->
+  <footer id="contacts" class="bg-klats-900 text-klats-100">
+    <div class="max-w-6xl 3xl:max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 p-6 md:p-10 text-sm">
+      <div>
+        <p class="font-display text-xl font-bold text-white">Клац</p>
+        <p class="mt-2 leading-normal">Інтернет-магазин комп'ютерної периферії.</p>
+      </div>
+      <div>
+        <p class="font-semibold text-white mb-2">Контакти</p>
+        <p>📞 <a href="tel:+380441234567" class="hover:text-zap-400">+38 (044) 123-45-67</a></p>
+        <p>✉️ <a href="mailto:hello@klats.ua" class="hover:text-zap-400">hello@klats.ua</a></p>
+      </div>
+      <div>
+        <p class="font-semibold text-white mb-2">Адреса</p>
+        <p>м. Київ, вул. Хрещатик, 1</p>
+        <p>Пн–Нд: 09:00–21:00</p>
+      </div>
+    </div>
+    <p class="text-center text-xs text-klats-200 pb-6">© 2026 Клац · Лабораторна робота №2 · Майдан Р. В., ІПЗм-41</p>
+  </footer>
+
+</body>
+</html>
