@@ -6,3 +6,9 @@ body {
 }
 h1 { color: #2563eb; }
 .note { background: #eff6ff; padding: 12px; border-radius: 8px; }
+
+footer {
+  margin-top: 40px;
+  color: #6b7280;
+  font-size: 14px;
+}
