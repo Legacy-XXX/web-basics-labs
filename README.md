@@ -26,4 +26,4 @@ git push -u origin main
 ## Студент
 - **ПІБ:** Майдан Р. В.
 - **Група:** ІПЗм-41
-- **GitHub:** [github.com/ЛОГІН](https://github.com/ЛОГІН)
+- **GitHub:** [github.com/Legacy-XXX](https://github.com/Legacy-XXX)
