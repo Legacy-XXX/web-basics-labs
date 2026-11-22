@@ -1,0 +1,9 @@
+{
+  "name": "lab5-parking",
+  "version": "1.0.0",
+  "description": "Лабораторна робота №5: ООП у JavaScript — управління паркінгом",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js"
+  }
+}
