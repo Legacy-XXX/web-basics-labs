@@ -1,0 +1,10 @@
+{
+  "name": "lab8-klats-mvc",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/assets/css/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
