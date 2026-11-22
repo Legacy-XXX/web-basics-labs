@@ -1,0 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  color: #1f2937;
+}
+h1 { color: #2563eb; }
+.note { background: #eff6ff; padding: 12px; border-radius: 8px; }
